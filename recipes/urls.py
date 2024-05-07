@@ -1,11 +1,10 @@
 
 from django.urls import path
-from recipes.views import index,contato,sobre
+from recipes.views import index
 
 
 urlpatterns = [
     path('',index),
-    path('sobre/',sobre),
-    path('contato/',contato)
+   
 
 ]
